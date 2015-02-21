@@ -1,0 +1,275 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "segoe UI";
+	font-size: 14px;
+	color: 000;
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow-x:hidden;
+}
+#page {
+	padding: 0px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 45px;
+	background-image: url(images/menubg.png);
+}
+
+#menu ul {
+	margin: 0px;
+	text-decoration: none;
+	padding: 0px;
+}
+#menu img {
+	float: left;
+}
+#menu li {
+	float: left;
+	list-style-type: none;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+#menu li a {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "segoe UI";
+	color: #FFF;
+}
+#menu li a:hover {
+	color: #000;
+}
+
+
+
+#colorbox {
+
+	width: 100%;
+	height: 280px;
+	top: 619px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: repeat-x;
+	position: absolute;
+}
+#colorbox  table{
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#colorbox table caption {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 30px;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #000;
+	font-weight: bold;
+}
+#colorbox table caption a {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-right: 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+#colorbox table caption a:hover {
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+#colorbox td {
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+	padding-top: 5px;
+}
+#botmenu {
+	height: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	top: 880px;
+	width: 940px;
+	position: relative;
+	padding: 0px;
+}
+
+#botmenu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-decoration: none;
+}
+#botmenu li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+#botmenu li a {
+	text-decoration: none;
+	font-family: "segoe UI";
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #000;
+	font-weight: bold;
+}
+#botmenu li a:hover {
+	text-decoration: none;
+	font-family: "segoe UI";
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #F00;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+#footer {
+	background-color: #000;
+	height: 45px;
+	color: #FFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	width: 100%;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	position: absolute;
+	top: 950px;
+	font-size: 18px;
+}
+
+
+#footer p {
+	text-align: center;
+	margin: 0px;
+	font-size: 10px;
+	color: #666;
+}
+#footer a {
+	color: #ffc423;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+#gametitle {
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#gameinfo {
+	height: 50px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 900px;
+	position: relative;
+	padding: 0px;
+	top: 20px;
+}
+#gameinfo td {
+	padding: 10px;
+}
+
+
+
+
+#flashgame {
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: none;
+}
+
+.flashobject {
+	margin: 0px;
+	padding: 0px;
+	border: 5px solid #FFF;
+}
+
+.myIframe {
+margin:0 auto;
+padding-bottom: 5.25%;
+padding-top: 0px;
+height: -10px;
+overflow: hidden;
+width:1020px;
+margin: 0 auto;
+}
+.myIframe iframe {
+position: absolute;
+top: 0;
+overflow: hidden;
+width: 1010px;
+height: 350px;
+}
+
+.myIframe2 {
+margin:0 auto;
+padding-bottom: 5.25%;
+padding-top: 0px;
+
+overflow: hidden;
+width:1020px;
+margin: 0 auto;
+}
+.myIframe2 iframe {
+position: absolute;
+top: 0;
+
+width: 800px;
+height: 500px;
+}
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Javascript Tutorial</title>
+<link href="style2.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/contact.js"></script> 
+
+
+<body>
+<div id="page">
+
+  <div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li><img src="images/menuspace.png" />
+            <li><a href="about.html">About</a></li><img src="images/menuspace.png" />
+			<li><a href="tutorials.html">Tutorials</a></li><img src="images/menuspace.png" />
+			<li><a href="feedback.html">Feedback</a></li><img src="images/menuspace.png" />
+            <li><a href="quiz.html">Take a Quiz</a></li><img src="images/menuspace.png" />
+            <img src="images/logo.png" width="284" height="38" />
+		</ul>
+  </div><!-- end menu -->
+  <div id="white">
+ 	
+	<form action="#" method="post">
+	<h3>Was our website helpful to you? Send us your feedback!</h3>
+	  <label>Name: </label> 
+      	<p><input type="text" name="name" Placeholder="Juan Dela Cruz" id="name" /></p>
+		<label> Email</label>
+        <p><input type="text" name="email" Placeholder="E.g. myemail@yahoo.com" id="email"/></p>
+		<br/>
+        <p><textarea cols="20" rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" >Your Message</textarea></p>
+        <p><input type="button" name="submit" value="Send" onclick="contact()" class="button" /></p>
+      </form>
+	
+  </div><!-- end white -->
+</div><!-- end page -->
+<div id="footer">
+  	<a href="facebook.html"><img src="images/facebook.png" width="19" height="20" /></a>LIKE US ON FACEBOOK
+  	<a href="twitter.html"><img src="images/twitter.png" width="21" height="20" /></a>FOLLOW US ON TWITTER |
+	<a href="#">Privacy Policy</a>
+	<p>© 2015. ALL RIGHTS RESERVED.</p>
+</div><!-- end footer -->
+</body>
+</html>

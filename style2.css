@@ -1,0 +1,239 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "segoe UI";
+	font-size: 14px;
+	color: 000;
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow-x:hidden;
+}
+
+#page {
+	padding: 0px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 45px;
+	background-image: url(images/menubg.png);
+}
+
+#menu ul {
+	margin: 0px;
+	text-decoration: none;
+	padding: 0px;
+}
+#white {
+	background: url('images/bg.png');
+	padding: 10px;
+	width: 940px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-radius: 10px;
+}
+
+#white2 {
+	background-color: white;
+	padding: 10px;
+	width: 940px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-radius: 10px;
+}
+
+
+
+#title {
+	font-size: 24px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#normaltext {
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	font-family: "Segoe UI";
+}
+#logo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#video {
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 125px;
+	margin-bottom: 130px;
+	padding-left: 60px;
+}
+#tv {
+	position: absolute;
+	padding: 0px;
+	clear: both;
+	clip: rect(auto,auto,auto,auto);
+}
+
+#maplocation {
+}
+#contactform {
+	font-size: 12px;
+}
+
+#locationtext {
+}
+#locationtext ol  {
+	list-style-type: upper-alpha;
+}
+#lefttext {
+	float: left;
+	position: absolute;
+}
+#righttext {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+}
+#menutext pre{
+	font-family: "Segoe UI";
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#locationtext strong {
+	font-weight: bold;
+}
+
+
+
+
+#menu img {
+	float: left;
+}
+#menu li {
+	float: left;
+	list-style-type: none;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+#menu li a {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "segoe UI";
+	color: #FFF;
+}
+#menu li a:hover {
+	color: #000;
+}
+
+#footer {
+	background-color: #000;
+	height: 45px;
+	color: #FFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	width: 100%;
+	font-size: 18px;
+	clear: both;
+	margin-top: 5px;
+}
+
+
+#footer p {
+	text-align: center;
+	margin: 0px;
+	font-size: 10px;
+	color: #666;
+}
+#footer a {
+	color: #ffc423;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+/* ----form---- */
+
+
+form {
+	margin-bottom:40px;
+}
+form input, form textarea{
+	background:url(images/input_bg.gif) repeat-x top left;
+	padding:15px 15px;
+	font-size:15px;
+	border:none;
+}
+
+form label {
+		font-size: 15px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+form h3 {
+		font-family: Neutra Text;
+		font-size: 20px;
+		
+}
+
+#name, #email, #message {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#575757;
+	width:400px;
+}
+
+#message{
+	width:90%;
+}
+form  .button{
+	width: 150px;
+	height: 50px;
+	background:url(images/button.png) no-repeat left .4em;
+	border: 0;
+	text-transform:uppercase;
+	font-family:"LaneNarrowRegular", Arial, Helvetica, sans-serif;
+	color:#fff;
+	cursor: pointer;
+
+}
+form  .button:hover{
+	text-shadow: #7d271a 0px 1px 0px;
+}
+

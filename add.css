@@ -1,0 +1,86 @@
+.radiobuttonschoices{
+cursor:pointer;
+}
+
+.radiobuttons
+{
+margin-left:50px;
+
+}
+
+.formradios
+{
+font-size: 20px;
+
+}
+
+.formradios2
+{margin-left:50px;
+font-size: 50px;
+
+}
+
+.submitbutton
+{
+position:relative;
+display:block; 
+float:right; 
+display: inline-block;
+color: black;
+background-color: #699DB6;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 12px;
+padding: 10px 30px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid rgba(0,0,0,0.3);
+border-bottom-width: 3px;
+cursor:pointer;
+border-color: rgba(0,0,0,0.3);
+text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+
+
+.submitbutton:hover {
+		background-color: #4F87A2;
+		border-color: rgba(0,0,0,0.5);
+}
+	
+.submitbutton:active {
+		background-color: #3C677B;
+		border-color: rgba(0,0,0,0.9);
+}
+
+.question{
+margin-left:20px;
+}
+
+.correct
+{
+font-size:20px;
+margin-left:20px;
+color: #2ec200;
+}
+
+.error
+{
+font-size:20px;
+margin-left:20px;
+color: #ff0000;
+}
+
+.answer
+{
+font-size:20px;
+margin-left:20px;
+color: #919191;
+}
+
+.score22
+{
+
+}
+
+

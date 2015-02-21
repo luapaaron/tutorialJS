@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta name="description" content="Animated Text and Icon Menu with jQuery" />
+        <meta name="keywords" content="jquery, menu, navigation, sliding, animation, icon" />
+		<meta name="author" content="Codrops" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    </head>
+	
+	<script>
+	
+	function about(){
+		parent.location='../about.html'
+	}
+	function tutorials(){
+		parent.location='../tutorials.html'
+	}
+	function feedback(){
+		parent.location='../feedback.html'
+	}
+	function quiz(){
+		parent.location='../quiz.html'
+	}
+	
+	
+	</script>
+    <body>
+		<div class="container">
+			<ul id="sti-menu" class="sti-menu">
+				<li data-hovercolor="#37c5e9">
+					<a onclick="about()" style="cursor:pointer">
+						<h2 data-type="mText" class="sti-item">What is Javascript?</h2>
+						<h3 data-type="sText" class="sti-item">JavaScript is most...</h3>
+						<span data-type="icon" class="sti-icon sti-icon-care sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#ff395e">
+					<a onclick="tutorials()" style="cursor:pointer">
+						<h2 data-type="mText" class="sti-item">Javascript Tutorials</h2>
+						<h3 data-type="sText" class="sti-item">Learn more about JS</h3>
+						<span data-type="icon" class="sti-icon sti-icon-info sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#57e676">
+					<a onclick="feedback()" style="cursor:pointer">
+						<h2 data-type="mText" class="sti-item">Send Us Your Feedback</h2>
+						<h3 data-type="sText" class="sti-item">Do u find our site helpful?</h3>
+						<span data-type="icon" class="sti-icon sti-icon-family sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#d869b2">
+					<a onclick="quiz()" style="cursor:pointer">
+						<h2 data-type="mText" class="sti-item">Test Your Knowledge</h2>
+						<h3 data-type="sText" class="sti-item">Take our quiz now!</h3>
+						<span data-type="icon" class="sti-icon sti-icon-technology sti-item"></span>
+					</a>
+				</li>
+				<li data-hovercolor="#ffdd3f">
+					<a href="#">
+						<h2 data-type="mText" class="sti-item">Wanna Know More?</h2>
+						<h3 data-type="sText" class="sti-item">Under Construction</h3>
+						<span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
+					</a>
+				</li>
+			</ul>
+
+
+		</div>
+		<script type="text/javascript" src="js/effects1.js"></script>
+		<script type="text/javascript" src="js/effects2.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#sti-menu').iconmenu();
+			});
+		</script>
+    </body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="demo.css">
+    <meta name="viewport" content="width=device-width">
+    <script>document.documentElement.className = "js";</script>
+    <script src="../vendor/jquery-1.9.1.js"></script>
+    <script src="../vendor/json2.js"></script>
+    <script src="../src/jquery.collapse.js"></script>
+    <script src="../src/jquery.collapse_storage.js"></script>
+    <script src="../src/jquery.collapse_cookie_storage.js"></script>
+  </head>
+  <body>
+
+
+      <!-- BEGIN Showing and hiding with CSS -->
+      <h2>Javascript Tutorials</h2>
+      <div id="css3-animated-example">
+	  
+        <h3>JS Introduction</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Can Change HTML Content </h2>
+            <p>One of many HTML methods is document.getElementById(). This example "finds" the HTML element with id="demo", and changes its content (innerHTML):</p>
+            <p>Example: <span>document.getElementById("demo").innerHTML = "Hello JavaScript";</span></p>
+          </div>
+        </div>
+		
+        <h3>JS Where To</h3>
+        <div>
+          <div class="content">
+			<h2> The &lt;script&gt; Tag </h2>
+            <p>In HTML, JavaScript code must be inserted between &lt;script&gt; and &lt;script&gt; tags.</p>
+            <p>Example: <span> &lt;script&gt;
+			document.getElementById("demo").innerHTML = "My First JavaScript"; &lt;/script&gt; </span></p>
+			<h2> JavaScript Functions and Events </h2>
+			<p> A JavaScript function is a block of JavaScript code, that can be executed when "asked" for. For example, a function can be executed when an event occurs, like when the user clicks a button. You will learn much more about functions and events in later chapters. </p>
+			<h2>JavaScript in &lt;head&gt; </h2>
+			<p><span>&lt;!DOCTYPE html&gt; <br/>
+				&lt;html&gt; <br/>
+				&lt;head&gt; <br/>
+				&lt;script&gt; <br/>
+				function myFunction() { <br/>
+					document.getElementById("demo").innerHTML = "Paragraph changed."; <br/>
+				} <br/>
+				&lt;/script&gt; <br/>
+				&lt;/head&gt; <br/>
+
+				&lt;body&gt; <br/>
+
+				&lt;h1>My Web Page&lt;/h1&gt; <br/>
+
+				&lt;p id="demo"&gt;A Paragraph&lt;/p&gt; <br/>
+
+				&lt;button type="button" onclick="myFunction()"&gt;Try it&lt;/button&gt; <br/>
+
+				&lt;/body&gt; <br/>
+				&lt;/html&gt;</span></p>
+			<h2> JavaScript in &lt;body&gt; </h2>
+			<p><span> &lt;!DOCTYPE html&gt; <br/>
+					&lt;html&gt; <br/>
+					&lt;body&gt;  <br/>
+
+					&lt;h1>My Web Page&lt;/h1&gt; <br/>
+
+					&lt;p id="demo"&gt;A Paragraph&lt;/p&gt; <br/>
+
+					&lt;button type="button" onclick="myFunction()"&gt;Try it&lt;/button&gt; <br/>
+
+					&lt;script&gt; <br/>
+					function myFunction() { <br/>
+					   document.getElementById("demo").innerHTML = "Paragraph changed."; <br/>
+					}
+					&lt;/script&gt; <br/>
+
+					&lt;/body&gt; <br/>
+					&lt;/html&gt; </span></p>
+          </div>
+        </div>
+		
+        <h3>JS Output</h3>
+        <div>
+          <div class="content">
+			<h2>JavaScript Display Possibilities</h2>
+            <p>JavaScript can "display" data in different ways:</p>
+			<ul>
+			  <li>Writing into an alert box, using <strong> window.alert(). </strong> </li>
+			  <li>Writing into the HTML output using <strong> document.write().</strong> </li>
+			  <li>Writing into an HTML element, using <strong> innerHTML.</strong> </li>
+			  <li>Writing into the browser console, using <strong> console.log().</strong> </li>
+			</ul>
+			<h2>Using window.alert()</h2>
+			<p>You can use an alert box to display data.</p>
+			<p><span>&lt;!DOCTYPE html&gt; <br/>
+				&lt;html&gt; <br/>
+				&lt;body&gt; <br/>
+
+				&lt;h1&gt;My First Web Page&lt;/h1&gt; <br/>
+				&lt;p&gt;My first paragraph.&lt;/p&gt; <br/>
+
+				&lt;script&gt; <br/>
+				window.alert(5 + 6); <br/>
+				&lt;/script&gt; <br/>
+
+				&lt;/body&gt; <br/>
+				&lt;/html&gt;
+			</span></p>
+			<h2>Using document.write()</h2>
+			<p>For testing purposes, it is convenient to use <strong> document.write(). </strong></p>
+			<p><span>&lt;!DOCTYPE html&gt; <br/>
+				&lt;html&gt; <br/>
+				&lt;body&gt; <br/>
+
+				&lt;h1&gt;My First Web Page&lt;/h1&gt; <br/>
+				&lt;p&gt;My first paragraph.&lt;/p&gt; <br/>
+
+				&lt;script&gt; <br/>
+				document.write(5 + 6); <br/>
+				&lt;/script&gt; <br/>
+
+				&lt;/body&gt; <br/>
+				&lt;/html&gt;
+			</span></p>
+          </div>
+        </div>
+		
+		  <h3>JS Syntax</h3>
+        <div>
+          <div class="content">
+		  <h2>JavaScript Programs</h2>
+            <p>A <strong>computer program </strong> is a list of "instructions" to be "executed" by the computer.
+
+				In a <strong>programming language</strong>, these program instructions are called <strong> statements.</strong>
+
+				JavaScript is a programming language.
+
+				JavaScript statements are separated by <strong> semicolon.</strong></p>
+			<p>Example:</p>
+			<span> <p>var x = 5;</p>
+					<p>var y = 6;</p>
+					<p>var z = x + y;</p>
+			</span>
+			<h2> JavaScript Variables </h2>
+			<p>In a programming language, <strong>variables</strong> are used to <strong>store</strong> data values.
+
+				JavaScript uses the <strong>var</strong> keyword to <strong>define</strong> variables.
+
+				An <strong>equal sign</strong> is used to <strong>assign values</strong> to variables.
+
+				In this example, x is defined as a variable. Then, x is assigned (given) the value 6:
+			</p>
+			<span><p>var x;</p>
+
+				<p>x = 6;</p></span>
+			<h2>JavaScript Operators</h2>
+				<p>JavaScript uses an <strong>assignment operator</strong> ( = ) to assign values to variables:</p>
+			<span><p>var x = 5;</p>
+
+				<p>var y = 6;</p></span>
+				<p>JavaScript uses <strong>arithmetic operators</strong> ( + - *  / ) to compute values:</p>
+			<span><p>(5 + 6) * 10</p></span>	
+          </div>
+        </div>
+		
+		<h3>JS Statements</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Statements </h2>
+            <p>This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo".</p>
+            <p>Example: <span>document.getElementById("demo").innerHTML = "Hello Dolly.";</span></p>
+			<h2> JavaScript Programs </h2>
+			<p>Most JavaScript programs contain many JavaScript statements.
+
+			The statements are executed, one by one, in the same order as they are written.
+
+			In this example, x, y, and z is given values, and finally z is displayed:</p>
+			<span><p>var x = 5;</p>
+					<p>var y = 6;</p>
+					<p>var z = x + y;</p>
+					<p>document.getElementById("demo").innerHTML = z;</p></span>
+			<h2>Semicolons ;</h2>
+			<p>Semicolons separate JavaScript statements.Add a semicolon at the end of each executable statement.</p>
+			<span><p>a = 5;</p>
+					<p>b = 6;</p>
+					<p>c = a + b;</p>
+          </div>
+        </div>
+		
+		  <h3>JS Comments</h3>
+        <div>
+          <div class="content">
+			<h2> Single Line Comments </h2>
+            <p>Single line comments start with //.
+
+				Any text between // and the end of a line, will be ignored by JavaScript (will not be executed).</p>
+				<h4>// Change heading:</h4>
+				<span>document.getElementById("myH").innerHTML = "My First Page";</span>
+				<h4>// Change paragraph:</h4>
+				<span>document.getElementById("myP").innerHTML = "My first paragraph.";</span>
+			<p>This example uses a single line comment at the end of each line, to explain the code:</p>
+				<h4>// Declare x, give it the value of 5</h4><span>var x = 5;</span>      
+				<h4>// Declare y, give it the value of x + 2</h4><span>var y = x + 2;</span>  
+			<h2>Multi-line Comments</h2>
+			<p>Multi-line comments start with /* and end with */.
+
+			Any text between /* and */ will be ignored by JavaScript.
+
+			This example uses a multi-line comment (a comment block) to explain the code:</p>
+			<h4>/*
+			<p>The code below will change</p>
+			<p>the heading with id = "myH"</p>
+			<p>and the paragraph with id = "myP"</p>
+			<p>in my web page:</p>
+			*/</h4>
+			<span><p>document.getElementById("myH").innerHTML = "My First Page";</p>
+			<p>document.getElementById("myP").innerHTML = "My first paragraph.";</p></span>
+          </div>
+        </div>
+		
+		<h3>JS Variables</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Variables </h2>
+            <p>JavaScript variables are containers for storing data values.
+
+				In this example, x, y, and z, are variables:</p>
+            
+			<span><p>var x = 5;</p>
+				<p>var y = 6;</p>
+				<p>var z = x + y;</p></span>
+		<h2>Much Like Algebra</h2>
+		<span><p>var price1 = 5;</p>
+				<p>var price2 = 6;</p>
+				<p>var total = price1 + price2;</p></span>
+          </div>
+        </div>
+		
+		<h3>JS Operators</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Arithmetic Operators </h2>
+            <p>Arithmetic operators are used to perform arithmetic between variables and/or values.</p>
+            <table style="width:100%">
+			  <tr>
+				<td><strong>Operator</strong></td>
+				<td><strong>Description</strong></td>
+			  </tr>
+			  <tr>
+				<td>+</td>
+				<td>Addition</td>
+			  </tr>
+			  <tr>
+				<td>-</td>
+				<td>Subtraction</td>
+			  </tr>
+			  <tr>
+				<td>*</td>
+				<td>Multiplication</td>
+			  </tr>
+			  <tr>
+				<td>/</td>
+				<td>Division</td>
+			  </tr>
+			  <tr>
+				<td>%</td>
+				<td>Modulus</td>
+			  </tr>
+			  <tr>
+				<td>++</td>
+				<td>Increment</td>
+			  </tr>
+			  <tr>
+				<td>--</td>
+				<td>Decrement</td>
+			  </tr>
+			  </table>
+			  
+			  <h2> JavaScript Arithmetic Operators </h2>
+            <p>Arithmetic operators are used to perform arithmetic between variables and/or values.</p>
+            <table style="width:100%">
+			  <tr>
+				<td><strong>Operator</strong></td>
+				<td><strong>Example</strong></td>
+				<td><strong>Same As</strong></td>
+			  </tr>
+			  <tr>
+				<td>=</td>
+				<td>x = y</td>
+				<td>x = y</td>
+			  </tr>
+			  <tr>
+				<td>+=</td>
+				<td>x += y</td>
+				<td>x = x + y</td>
+			  </tr>
+			  <tr>
+				<td>-=</td>
+				<td>x -= y</td>
+				<td>x = x - y</td>
+			  </tr>
+			  <tr>
+				<td>*=</td>
+				<td>x *= y</td>
+				<td>x = x * y</td>
+			  </tr>
+			  <tr>
+				<td>/=</td>
+				<td>x /= y</td>
+				<td>x = x / y</td>
+			  </tr>
+			  <tr>
+				<td>%=</td>
+				<td>x %= y</td>
+				<td>x = x % y</td>
+			  </tr>
+			  </table>
+          </div>
+        </div>
+		
+		<h3>JS Data Types</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Data Types </h2>
+            <p>JavaScript variables can hold many data types: numbers, strings, arrays, objects and more:</p>
+            <h4>// Number</h4><span>var length = 16;</span>                       
+			<h4> // String </h4><span>var lastName = "Johnson"; </span>                     
+			<h4> // Array </h4><span>var cars = ["Saab", "Volvo", "BMW"]; </span>          
+			<h4>// Objectp </h4><span>var x = {firstName:"John", lastName:"Doe"}; </span>    
+          </div>
+        </div>
+		
+		<h3>JS Functions</h3>
+        <div>
+          <div class="content">
+			<h2> JavaScript Functions </h2>
+            <p>A JavaScript function is a block of code designed to perform a particular task.
+
+				A JavaScript function is executed when "something" invokes it (calls it).</p>
+            <h4>// the function returns the product of p1 and p2</h4>
+			<span><p>function myFunction(p1, p2) <p>{</p>
+				<p>return p1 * p2;</p>         <p>     } </p><span>
+          </div>
+        </div>
+		
+      </div>
+      <script>
+        $("#css3-animated-example").collapse({
+          accordion: true,
+          open: function() {
+            this.addClass("open");
+            this.css({ height: this.children().outerHeight() });
+          },
+          close: function() {
+            this.css({ height: "0px" });
+            this.removeClass("open");
+          }
+        });
+      </script>
+      <!-- END Showing and hiding with CSS -->
+
+
+      
+
+    </div>
+  </body>
+</html>
